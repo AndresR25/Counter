@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Styles.css') }}">
+
+</head>
+<body>
+    <h1>Counter</h1>
+    <p>{{session['count']}} time(s)</p>
+    <div>
+        <button id="button1">
+            <a href="/2">Click +2</a>
+        </button>
+        <button id="button2">
+            <a href="/reset">Reset</a> 
+        </button>
+        <button id="button1">
+            <a href="/">Click +1</a>
+        </button>
+    </div>
+</body>
+</html>

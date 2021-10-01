@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 20px;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+#button1{
+    background-color: rgb(56, 87, 87);
+    
+}
+#button1>a{
+    color:white;
+}
+
+#button2{
+    background-color: rgb(141, 102, 28);
+    
+}
+#button2>a{
+    color:white;
+}
+
